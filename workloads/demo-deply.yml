@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -22,7 +23,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: 294254988299.dkr.ecr.ap-southeast-1.amazonaws.com/eks-flux-demo-app:f1f2affc450ebbed47417bcee23f089a85214354
+        image: 294254988299.dkr.ecr.ap-southeast-1.amazonaws.com/eks-flux-demo-app:778a7f7fcf287b841080bd6a856d6f0965f3f248
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
